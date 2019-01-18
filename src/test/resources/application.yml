@@ -1,0 +1,8 @@
+micronaut:
+    application:
+        name: hazelcast-micronaut-cache-sample
+hazelcast:
+    client: false
+    caches:
+        counter:
+            enabled: true

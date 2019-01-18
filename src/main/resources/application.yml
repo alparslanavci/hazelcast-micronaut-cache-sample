@@ -1,0 +1,9 @@
+micronaut:
+    application:
+        name: hazelcast-micronaut-cache-sample
+hazelcast:
+    client: false
+    xmlConfigPath: src/main/resources/hazelcast.xml
+    caches:
+        counter:
+            enabled: true
